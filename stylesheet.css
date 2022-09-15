@@ -84,7 +84,6 @@ float: right;
   
 }
 .card-img p{
-  border: 1px solid red;
   text-align: center;
   opacity: 1;
   transition: 300ms ease-in-out;
