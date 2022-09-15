@@ -1,0 +1,132 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+ @font-face {
+    font-family: 'font-baru';
+    src: url(Montserrat-Bold.ttf);
+  }
+.container{
+  width: 1170px;
+  margin: 0 auto;
+
+}
+  header {
+    top: 0;
+    background-color: rgba(11,12,16,0.85);
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    top: 0px;
+    z-index: 10;
+    display: flex;
+
+  }
+  .header-logo {
+    width: fit-content;
+    font-size: 10vh;
+    font-weight: 450;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 3px;
+    display: flex;
+    justify-content: flex-start;
+    padding-right: 30px;
+    text-align: left;
+    color: #66fcf1;
+    /*border: 1px solid red;*/
+  }
+.header-logo span{
+  font-size: 20px;
+  color: white;
+}
+.header-right{
+  float: right;
+  /*border: 1px solid red;*/
+}
+.header-right a{
+  display: inline-block;
+  transition: all 0.3s ease;
+  color: white; 
+  font-size: 30px;
+  margin: 10px;
+}
+.header-right a:hover{
+  background-color: rgb(67, 67, 68,0.5);
+  padding: 16px;
+}
+
+input{
+  width: fit-content;
+  padding: 6px;
+  margin-top: 18px;
+  margin-left: 10px;
+  margin-right: 16px;
+  border: none;
+  font-size: 17px;
+}
+.top-wrapper{
+    padding: 100px 0 110px 0;
+    background-color: #1f2833;
+    text-align: left;
+    background-position: center;
+    height: fit-content;
+}
+.top-wrapper h1{
+  color:#d5d9dc;
+  font-size: 90px;
+  letter-spacing: 2px;
+  font-family: font-baru;
+}
+.card-img{
+float: right;
+  
+}
+.card-img p{
+  border: 1px solid red;
+  text-align: center;
+  opacity: 1;
+  transition: 300ms ease-in-out;
+  position:absolute;
+  display: flex;
+  width:inherit;
+  top:380px;
+  color:white;
+  letter-spacing: 3px ;
+}
+.shop{
+  background-color:#66fcf1 ;
+  cursor: pointer;
+  width: 20vh;
+  height: 5vh;
+  margin-left: 40px;
+  border-radius: 20px;
+  z-index: 10;
+  font-family: font-baru;
+}
+.shop:hover{
+  background-color: rgba(102, 252, 241,0.75);
+  transform: translateY(-0.33em);
+}
+.card-img p:hover{
+  opacity: 1;
+}
+.card:hover{
+  transform: scale(1.1);
+}
+.card-img img{
+  width:100% ;
+  display: flex;
+  position: relative; 
+}
+.card{
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  z-index: 0;
+  padding-top: 55px;
+  transition:200ms ease-in-out;
+  color:#c5c6c7;
+  width:25%
+}
